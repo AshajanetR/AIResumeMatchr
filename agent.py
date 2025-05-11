@@ -141,7 +141,7 @@ class ResumeAIAgent:
             api_key: Groq API key (if provided, overrides environment variable)
         """
         # Hardcoded API key
-        DEFAULT_API_KEY = "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"
+        DEFAULT_API_KEY = "" #provide your api key here
         
         if use_mock:
             self.agent = Agent(model=MockModel(), markdown=True)
